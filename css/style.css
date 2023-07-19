@@ -106,10 +106,13 @@
 
     .vehiculos h2{
         font-style: italic;
+        
     }
 
     .vehiculos p{
         margin-bottom: 15px;
+        
+        
     }
     .vehiculos .card-flex{
         display: flex;
@@ -366,6 +369,10 @@
         .position-w{
             display: none;
         }
+
+        .hero h2{
+            font-size: 25px;
+        }
     }
 
 
@@ -376,12 +383,20 @@
         }
 
         .hero h2{
-            font-size: 30px;
+            font-size: 25px;
         }
 
     }
 
-    
+    @media screen and (max-width:460px){
+        .hero{
+            margin-bottom: 150px;
+        }
+
+        .hero h2{
+            font-size: 15px;
+        }
+    }
 
     @media screen and (max-width:450px){
         .grid-galeria{
@@ -415,11 +430,11 @@
         }
 
         .hero{
-            margin-bottom: 100px;
+            margin-bottom: 160px;
         }
 
         .hero h2{
-            font-size: 30px;
+            font-size: 15px;
         }
         
     }
@@ -436,7 +451,7 @@
         }
 
         .hero h2{
-            font-size: 25px;
+            font-size: 15px;
         }
 
         
@@ -450,6 +465,23 @@
     }
 
     @media screen and (max-width:400px){
+
+        .hero a{
+            text-decoration: none;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            font-size: 15px;
+            font-weight: 300;
+            border: 1px black solid;
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        .hero p{
+            font-size: 14px;
+            
+        }
 
         .productos .tarjeta-productos div{
 
@@ -472,11 +504,16 @@
             color: #ffffff;
             font-family: 'Poppins', sans-serif;
             font-style: italic;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 300;
             border: 1px black solid;
             background-color: rgb(0, 0, 0);
 
+        }
+
+        .hero p{
+            font-size: 14px;
+            
         }
 
         .productos .tarjeta-productos div{
@@ -496,6 +533,7 @@
     @media screen and (max-width:360px){
         .hero p{
             font-size: 14px;
+            
         }
         }
     
