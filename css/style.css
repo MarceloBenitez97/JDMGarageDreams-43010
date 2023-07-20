@@ -16,7 +16,7 @@
     /*---------HEADER------------*/
 
     header{
-        background-color:#2C3539 ;
+        background-color: #2C3539;
         padding: 15px;
         border: 5px black solid;
         display: flex;
@@ -537,3 +537,48 @@
         }
         }
     
+
+
+    /*!----------PSEUDO CLASES-------------*/
+    
+    .boton:hover{
+        background-color: rgb(238, 0, 0);
+        color: #FFFFFF;
+    }
+
+    header nav ul li a:hover{
+        color: red;
+    }
+
+    /*!----------PSEUDO ELEMENTOS-----------*/
+
+
+    h1::selection{
+        background-color: darkred;
+        color: #FFFFFF;
+    }
+
+
+    h2::selection{
+        background-color: darkred;
+        color: #FFFFFF;
+    }
+
+    h3::selection{
+        background-color: darkred;
+        color: #FFFFFF;
+    }
+
+    p::selection{
+        background-color: darkred;
+        color: #FFFFFF;
+    }
+
+    .boton::selection{
+        background-color: darkred;
+        color: #FFFFFF;
+    }
+
+    header nav ul li a::selection{
+        color: red;
+    }
