@@ -35,6 +35,10 @@
         text-align: center;
     }
 
+    header h1 span{
+        color: red;
+    }
+
     header nav ul{
         list-style: none;
         display: flex;
@@ -157,7 +161,13 @@
 
     main h2{
         font-style: italic;
+        padding: 10px;
     }
+
+    main p{
+        padding: 10px;
+    }
+
 
     .grid-galeria{
         margin-top: 40px;
@@ -249,28 +259,44 @@
         -moz-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
     }
 
-    .nosotros {
-        width: 100%;
-        height: calc(100vh - 201px);
+    .nosotros{
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
         display: flex;
-        
+        justify-content: center;
+        align-items: center;
     }
 
-    .nosotros h2{
-        font-style: italic ;
+    .nosotros div{
+        width: 50%;
+    }
+
+    
+
+    .nosotros img{
+        width: 600px;
+        height: 600px;
     }
 
     .taller{
-        width: 100%;
-        height: calc(100vh - 201px);
-        display: flex;
+        padding-top: 20px;
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
+    }
+
+    .taller div{
+        width: 50%;
+    }
+
+    .taller img{
+        width: 600px;
+        height: 600px;
     }
 
 
@@ -345,6 +371,10 @@
         color: #FFFFFF;
     }
 
+    footer h2 span{
+        color: red;
+    }
+
 
     @media screen and (max-width:950px){
         .grid-galeria{
@@ -367,6 +397,18 @@
     }
     
 
+    @media screen and (max-width:860px){
+        .nosotros{
+            flex-direction: column;
+        }
+
+        .taller{
+            flex-direction: column;
+        }
+
+
+    }
+
     @media screen and (max-width:620px){
         header{
             flex-direction: column;
@@ -380,6 +422,17 @@
         .hero h2{
             font-size: 25px;
         }
+
+        .nosotros img{
+            width: 400px;
+            height: 400px;
+        }
+
+        .taller img{
+            width: 400px;
+            height: 400px;
+        }
+
     }
 
 
@@ -461,7 +514,15 @@
             font-size: 15px;
         }
 
-        
+        .nosotros img{
+            width: 300px;
+            height: 300px;
+        }
+
+        .taller img{
+            width: 300px;
+            height: 300px;
+        }
     }
 
     @media screen and (max-width:422px){
