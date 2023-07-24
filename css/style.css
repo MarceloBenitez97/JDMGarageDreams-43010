@@ -89,6 +89,10 @@
         
     }
 
+    .hero h2 span{
+        color: red;
+    }
+
     .hero p{
         margin-bottom: 10px;
     }
