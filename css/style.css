@@ -16,7 +16,7 @@
     /*---------HEADER------------*/
 
     header{
-        background-color: #2C3539;
+        background-color: #6C757D;
         padding: 15px;
         border: 5px black solid;
         display: flex;
@@ -26,7 +26,7 @@
         top: 0;
         z-index: 10;
     }
-
+    
     header h1{
         color: #FFFFFF;
         font-family: 'Poppins', sans-serif;
@@ -35,8 +35,17 @@
         font-weight: 600;
         text-align: center;
     }
+    
+    header nav .container-fluid .navbar-brand{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        
+    }
 
-    header h1 span{
+
+    header span{
         color: red;
     }
 
@@ -365,17 +374,6 @@
         padding-bottom: 50px;
     }
 
-
-    .position-w{
-        background-color: #FDF5E6;
-        position: fixed;
-        bottom: 100px;
-        right: 50px;
-    }
-
-    .position-w img{
-        width: 50px;
-    }
     
     /*------------FOOTER------------*/
     footer{
@@ -443,10 +441,6 @@
             position: static;
         }
 
-        .position-w{
-            display: none;
-        }
-
         .hero h2{
             font-size: 25px;
         }
@@ -471,6 +465,11 @@
         }
 
         .hero h2{
+            font-size: 25px;
+        }
+
+
+        header nav .container-fluid .navbar-brand{
             font-size: 25px;
         }
 
