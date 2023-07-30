@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
     
     
     /*---------RESET--------------*/
@@ -430,10 +430,18 @@
 
         .taller{
             flex-direction: column;
-        }
-
-
+        }    
     }
+
+    @media screen and (max-width:695px){
+
+        .servicios p{
+
+            font-size: 17px;
+        }
+    }
+
+
 
     @media screen and (max-width:620px){
         header{
@@ -455,6 +463,15 @@
             height: 400px;
         }
 
+    }
+
+
+    @media screen and (max-width:520px){
+
+        .servicios p{
+
+            font-size: 15px;
+        }
     }
 
 
@@ -589,6 +606,12 @@
         .productos .tarjeta-productos div img{
             width: 335px;
             height: 280px;
+        }
+
+
+        .servicios p{
+
+            font-size: 14px;
         }
     }
 
