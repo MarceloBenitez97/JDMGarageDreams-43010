@@ -1,0 +1,43 @@
+header{
+    background-color:$color-primario;
+    padding: 15px;
+    border: 5px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    nav{
+        .container-fluid{
+            .navbar-brand{
+                font-size: 40px;
+                font-family: 'Poppins', sans-serif;
+                font-style: italic;
+                font-weight: 600;
+                span{
+                    color:$color-secundario;
+                }
+            }
+    
+    
+            div{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    li{
+                        margin: 5px;
+                        a{
+                            text-decoration: none;
+                            color:$color-terciario;
+                            font-family: 'Poppins', sans-serif;
+                            font-style: italic;
+                            text-align: right;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
