@@ -87,7 +87,7 @@
         font-style: italic;
         font-size: 50px;
         font-weight: 600;
-        
+        color: #FFFFFF;
     }
 
     .hero h2 span{
@@ -96,6 +96,8 @@
 
     .hero p{
         margin-bottom: 10px;
+        font-size: 16px;
+        color: #FFFFFF;
     }
 
     .hero a{
@@ -156,7 +158,8 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 20px;
-        margin-bottom: 25px; 
+        margin-bottom: 25px;
+        color: black; 
     }
 
 
@@ -174,11 +177,15 @@
         font-style: italic;
         font-weight: 600;
         padding: 10px;
+        font-size: 32px;
+        color: black;
     }
 
     main p{
         font-family: 'Poppins', sans-serif;
         padding: 10px;
+        font-size: 16px;
+        color: black;
     }
 
 
@@ -238,6 +245,13 @@
 
     .videos h2{
         font-style: italic;
+        font-size: 32px;
+        color: black;
+    }
+
+    .videos p{
+        font-size: 16px;
+        color: black;
     }
 
     .videos div{
@@ -251,28 +265,42 @@
     .contactenos {
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
         padding-bottom: 50px;
         
     }
 
     .contactenos h2{
         font-style: italic;
+        font-size: 32px;
+        color: black;
+    }
+
+    .contactenos p{
+        font-size: 16px;
+        color: black;
+    }
+
+    .consulta{
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 32px;
+        color: black;
     }
 
     .despedida{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 32px;
         font-style: italic;
         padding-bottom: 50px;
+        color: black;
     }
 
     
     .nosotros{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -282,7 +310,21 @@
         width: 50%;
     }
 
-    
+    .nosotros div h2{
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 32px;
+        color: black;
+    }
+
+    .nosotros div p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: black;
+    }
+
 
     .nosotros img{
         width: 600px;
@@ -304,6 +346,21 @@
         width: 50%;
     }
 
+    .taller div h2{
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 32px;
+        color: black;
+    }
+
+    .taller div p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: black;
+    }
+
     .taller img{
         width: 600px;
         height: 600px;
@@ -313,11 +370,18 @@
     .productos {
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
     }
 
     .productos h2{
         font-style: italic;
+        font-size: 32px;
+        color: black;
+    }
+
+    .productos p{
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
     }
 
     .productos .tarjeta-productos{
@@ -349,6 +413,7 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 20px;
+        color: black;
     }
 
 
@@ -363,11 +428,21 @@
         background-attachment: fixed;
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
     }
 
     .servicios h2{
         font-style: italic;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+
+    .servicios p{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        
     }
 
 
@@ -387,6 +462,7 @@
         font-style: italic;
         font-weight: 600;
         color: #FFFFFF;
+        font-size: 32px;
     }
 
     footer h2 span{

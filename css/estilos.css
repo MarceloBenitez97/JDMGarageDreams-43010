@@ -8,16 +8,6 @@
 body {
   font-family: 'Poppins', sans-serif; }
 
-main h2 {
-  font-family: 'Poppins', sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  padding: 10px; }
-
-main p {
-  font-family: 'Poppins', sans-serif;
-  padding: 10px; }
-
 header {
   background-color: #6C757D;
   padding: 15px;
@@ -30,6 +20,7 @@ header {
   z-index: 10; }
   header nav .container-fluid .navbar-brand {
     font-size: 40px;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 600; }
@@ -75,11 +66,14 @@ main {
       font-family: 'Poppins', sans-serif;
       font-style: italic;
       font-size: 50px;
-      font-weight: 600; }
+      font-weight: 600;
+      color: white; }
       main .hero h2 span {
         color: red; }
     main .hero p {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: white; }
     main .hero a {
       text-decoration: none;
       color: white;
@@ -120,7 +114,8 @@ main {
           font-family: 'Poppins', sans-serif;
           font-weight: 600;
           font-size: 20px;
-          margin-bottom: 25px; }
+          margin-bottom: 25px;
+          color: black; }
         main .vehiculos .card-flex div .boton {
           text-decoration: none;
           color: white;
@@ -130,10 +125,14 @@ main {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 600;
-    padding: 10px; }
+    padding: 10px;
+    font-size: 32px;
+    color: black; }
   main p {
     font-family: 'Poppins', sans-serif;
-    padding: 10px; }
+    padding: 10px;
+    font-size: 16px;
+    color: black; }
   main .grid-galeria {
     margin-top: 40px;
     width: 100%;
@@ -141,44 +140,6 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
     gap: 15px; }
-    main .grid-galeria .grid-item {
-      box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      position: relative; }
-      main .grid-galeria .grid-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
-      main .grid-galeria .grid-item h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        position: absolute;
-        bottom: 0;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.562);
-        width: 100%;
-        text-align: center; }
-    main .grid-galeria .grid-item {
-      box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      position: relative; }
-      main .grid-galeria .grid-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
-      main .grid-galeria .grid-item h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        position: absolute;
-        bottom: 0;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.562);
-        width: 100%;
-        text-align: center; }
     main .grid-galeria .grid-item {
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
@@ -218,25 +179,6 @@ main {
         background-color: rgba(0, 0, 0, 0.562);
         width: 100%;
         text-align: center; }
-    main .grid-galeria .grid-item {
-      box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      position: relative; }
-      main .grid-galeria .grid-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
-      main .grid-galeria .grid-item h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        position: absolute;
-        bottom: 0;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.562);
-        width: 100%;
-        text-align: center; }
     main .grid-galeria .img-6 {
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
@@ -248,25 +190,6 @@ main {
         height: 100%;
         object-fit: cover; }
       main .grid-galeria .img-6 h3 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        position: absolute;
-        bottom: 0;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.562);
-        width: 100%;
-        text-align: center; }
-    main .grid-galeria .grid-item {
-      box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      position: relative; }
-      main .grid-galeria .grid-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; }
-      main .grid-galeria .grid-item h3 {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 20px;
@@ -319,7 +242,12 @@ main {
     padding: 10px;
     margin-top: 40px; }
     main .videos h2 {
-      font-style: italic; }
+      font-style: italic;
+      font-size: 32px;
+      color: black; }
+    main .videos p {
+      font-size: 16px;
+      color: black; }
     main .videos div {
       display: flex;
       justify-content: space-around;
@@ -329,27 +257,49 @@ main {
 main .contactenos {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
   padding-bottom: 50px; }
   main .contactenos h2 {
-    font-style: italic; }
+    font-style: italic;
+    font-size: 32px;
+    color: black; }
+  main .contactenos p {
+    font-size: 16px;
+    color: black; }
+
+main .consulta {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  color: black; }
 
 main .despedida h2 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 32px;
   font-style: italic;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  color: black; }
 
 main .nosotros {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center; }
   main .nosotros div {
     width: 50%; }
+    main .nosotros div h2 {
+      font-family: 'Poppins', sans-serif;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 32px;
+      color: black; }
+    main .nosotros div p {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: black; }
   main .nosotros img {
     width: 600px;
     height: 600px; }
@@ -362,18 +312,32 @@ main .taller {
   display: flex;
   justify-content: center;
   align-items: center; }
-  main .taller div {
-    width: 50%; }
+  main .taller div h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    color: black; }
+  main .taller div p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: black; }
   main .taller img {
     width: 600px;
     height: 600px; }
 
 main .productos {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px; }
+  font-family: 'Poppins', sans-serif; }
   main .productos h2 {
-    font-style: italic; }
+    font-style: italic;
+    font-size: 32px;
+    color: black; }
+  main .productos p {
+    font-size: 16px;
+    color: black;
+    font-weight: 600; }
   main .productos .tarjeta-productos {
     display: flex;
     justify-content: space-around;
@@ -394,7 +358,8 @@ main .productos {
       main .productos .tarjeta-productos div h3 {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
-        font-size: 20px; }
+        font-size: 20px;
+        color: black; }
 
 main .servicios {
   color: white;
@@ -406,10 +371,17 @@ main .servicios {
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px; }
+  font-family: 'Poppins', sans-serif; }
   main .servicios h2 {
-    font-style: italic; }
+    font-style: italic;
+    font-size: 32px;
+    color: white; }
+  main .servicios p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 400; }
 
 footer {
   background-color: #2C3539;
@@ -422,7 +394,8 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 600;
-    color: white; }
+    color: white;
+    font-size: 32px; }
     footer h2 span {
       color: red; }
   footer div a img {
