@@ -37,6 +37,8 @@ header {
         font-family: 'Poppins', sans-serif;
         font-style: italic;
         text-align: right; }
+        header nav .container-fluid div ul li aselection {
+          color: red; }
 
 main {
   background-color: #FDF5E6; }
@@ -45,9 +47,15 @@ main {
     font-style: italic;
     font-weight: 600;
     padding: 10px; }
+    main h2selection {
+      background-color: darkred;
+      color: white; }
   main p {
     font-family: 'Poppins', sans-serif;
     padding: 10px; }
+    main pselection {
+      background-color: darkred;
+      color: white; }
   main .hero {
     width: 100%;
     height: calc(100vh - 185px);
@@ -70,11 +78,18 @@ main {
       color: white; }
       main .hero h2 span {
         color: red; }
+      main .hero h2selection {
+        background-color: darkred;
+        color: white; }
     main .hero p {
       margin-bottom: 10px;
       font-size: 16px;
       color: white; }
+      main .hero pselection {
+        background-color: darkred;
+        color: white; }
     main .hero a {
+      width: 180px;
       text-decoration: none;
       color: white;
       font-family: 'Poppins', sans-serif;
@@ -82,7 +97,18 @@ main {
       font-size: 30px;
       font-weight: 600;
       border: 1px black solid;
-      background-color: black; }
+      background-color: black;
+      transition-property: background-color;
+      transition-duration: 1.5s;
+      transition: 0.5s;
+      transition-timing-function: ease-in; }
+      main .hero ahover {
+        background-color: red;
+        color: white;
+        width: 25%; }
+      main .hero aselection {
+        background-color: darkred;
+        color: white; }
   main .vehiculos {
     padding: 10px;
     margin-top: 40px; }
@@ -90,9 +116,15 @@ main {
       font-family: 'Poppins', sans-serif;
       font-style: italic;
       font-weight: 600; }
+      main .vehiculos h2selection {
+        background-color: darkred;
+        color: white; }
     main .vehiculos p {
       font-family: 'Poppins', sans-serif;
       margin-bottom: 15px; }
+      main .vehiculos pselection {
+        background-color: darkred;
+        color: white; }
     main .vehiculos .card-flex {
       display: flex;
       justify-content: space-around;
@@ -106,7 +138,10 @@ main {
         margin: 20px;
         box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75); }
+        -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
+        transition: 1s; }
+        main .vehiculos .card-flex divhover {
+          transform: scale(1.2); }
         main .vehiculos .card-flex div img {
           width: 400px;
           height: 250px; }
@@ -116,11 +151,19 @@ main {
           font-size: 20px;
           margin-bottom: 25px;
           color: black; }
+          main .vehiculos .card-flex div h3selection {
+            background-color: darkred;
+            color: white; }
         main .vehiculos .card-flex div .boton {
           text-decoration: none;
           color: white;
           border: 3px black solid;
-          background-color: black; }
+          background-color: black;
+          transition-property: background-color;
+          transition-duration: 1.5s; }
+          main .vehiculos .card-flex div .botonselection {
+            background-color: darkred;
+            color: white; }
   main h2 {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
@@ -128,11 +171,17 @@ main {
     padding: 10px;
     font-size: 32px;
     color: black; }
+    main h2selection {
+      background-color: darkred;
+      color: white; }
   main p {
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     font-size: 16px;
     color: black; }
+    main pselection {
+      background-color: darkred;
+      color: white; }
   main .grid-galeria {
     margin-top: 40px;
     width: 100%;
@@ -159,6 +208,9 @@ main {
         background-color: rgba(0, 0, 0, 0.562);
         width: 100%;
         text-align: center; }
+        main .grid-galeria .grid-item h3selection {
+          background-color: darkred;
+          color: white; }
     main .grid-galeria .img-4 {
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
@@ -179,6 +231,9 @@ main {
         background-color: rgba(0, 0, 0, 0.562);
         width: 100%;
         text-align: center; }
+        main .grid-galeria .img-4 h3selection {
+          background-color: darkred;
+          color: white; }
     main .grid-galeria .img-6 {
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
@@ -199,6 +254,9 @@ main {
         background-color: rgba(0, 0, 0, 0.562);
         width: 100%;
         text-align: center; }
+        main .grid-galeria .img-6 h3selection {
+          background-color: darkred;
+          color: white; }
     main .grid-galeria .img-8 {
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
@@ -219,6 +277,9 @@ main {
         background-color: rgba(0, 0, 0, 0.562);
         width: 100%;
         text-align: center; }
+        main .grid-galeria .img-8 h3selection {
+          background-color: darkred;
+          color: white; }
     main .grid-galeria .img-9 {
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
@@ -238,6 +299,9 @@ main {
         background-color: rgba(0, 0, 0, 0.562);
         width: 100%;
         text-align: center; }
+        main .grid-galeria .img-9 h3selection {
+          background-color: darkred;
+          color: white; }
   main .videos {
     padding: 10px;
     margin-top: 40px; }
@@ -245,9 +309,15 @@ main {
       font-style: italic;
       font-size: 32px;
       color: black; }
+      main .videos h2selection {
+        background-color: darkred;
+        color: white; }
     main .videos p {
       font-size: 16px;
       color: black; }
+      main .videos pselection {
+        background-color: darkred;
+        color: white; }
     main .videos div {
       display: flex;
       justify-content: space-around;
@@ -262,9 +332,16 @@ main .contactenos {
     font-style: italic;
     font-size: 32px;
     color: black; }
+    main .contactenos h2selection {
+      background-color: darkred;
+      color: white; }
   main .contactenos p {
     font-size: 16px;
-    color: black; }
+    color: black;
+    font-weight: 600; }
+    main .contactenos pselection {
+      background-color: darkred;
+      color: white; }
 
 main .consulta {
   font-family: 'Poppins', sans-serif;
@@ -280,29 +357,41 @@ main .despedida h2 {
   font-style: italic;
   padding-bottom: 50px;
   color: black; }
+  main .despedida h2selection {
+    background-color: darkred;
+    color: white; }
 
-main .nosotros {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  main .nosotros div {
-    width: 50%; }
-    main .nosotros div h2 {
-      font-family: 'Poppins', sans-serif;
-      font-style: italic;
-      font-weight: 600;
-      font-size: 32px;
-      color: black; }
-    main .nosotros div p {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 16px;
-      color: black; }
-  main .nosotros img {
-    width: 600px;
-    height: 600px; }
+main .bg-nosotros {
+  background: oldlace;
+  background: linear-gradient(90deg, oldlace 23%, oldlace 42%, #333333 100%, #7a734f 100%); }
+  main .bg-nosotros .nosotros {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .bg-nosotros .nosotros div {
+      width: 50%; }
+      main .bg-nosotros .nosotros div h2 {
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 32px;
+        color: black; }
+        main .bg-nosotros .nosotros div h2selection {
+          background-color: darkred;
+          color: white; }
+      main .bg-nosotros .nosotros div p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: black; }
+        main .bg-nosotros .nosotros div pselection {
+          background-color: darkred;
+          color: white; }
+    main .bg-nosotros .nosotros img {
+      width: 600px;
+      height: 600px; }
 
 main .taller {
   padding-top: 20px;
@@ -318,11 +407,17 @@ main .taller {
     font-weight: 600;
     font-size: 32px;
     color: black; }
+    main .taller div h2selection {
+      background-color: darkred;
+      color: white; }
   main .taller div p {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: black; }
+    main .taller div pselection {
+      background-color: darkred;
+      color: white; }
   main .taller img {
     width: 600px;
     height: 600px; }
@@ -334,10 +429,16 @@ main .productos {
     font-style: italic;
     font-size: 32px;
     color: black; }
+    main .productos h2selection {
+      background-color: darkred;
+      color: white; }
   main .productos p {
     font-size: 16px;
     color: black;
     font-weight: 600; }
+    main .productos pselection {
+      background-color: darkred;
+      color: white; }
   main .productos .tarjeta-productos {
     display: flex;
     justify-content: space-around;
@@ -351,7 +452,10 @@ main .productos {
       margin: 50px;
       box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75); }
+      -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
+      transition: 1s; }
+      main .productos .tarjeta-productos divhover {
+        transform: scale(1.2); }
       main .productos .tarjeta-productos div img {
         width: 400px;
         height: 250px; }
@@ -360,6 +464,17 @@ main .productos {
         font-weight: 600;
         font-size: 20px;
         color: black; }
+        main .productos .tarjeta-productos div h3selection {
+          background-color: darkred;
+          color: white; }
+      main .productos .tarjeta-productos div .boton {
+        background-color: black;
+        color: #FFFFFF;
+        transition-property: background-color;
+        transition-duration: 1.5s; }
+        main .productos .tarjeta-productos div .botonselection {
+          background-color: darkred;
+          color: white; }
 
 main .servicios {
   color: white;
@@ -376,12 +491,18 @@ main .servicios {
     font-style: italic;
     font-size: 32px;
     color: white; }
+    main .servicios h2selection {
+      background-color: darkred;
+      color: white; }
   main .servicios p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: white;
     font-weight: 400; }
+    main .servicios pselection {
+      background-color: darkred;
+      color: white; }
 
 footer {
   background-color: #2C3539;
@@ -400,7 +521,11 @@ footer {
       color: red; }
   footer div a img {
     width: 50px;
-    height: 50px; }
+    height: 50px;
+    margin: 5px;
+    transition: 1s; }
+    footer div a imghover {
+      transform: scale(1.3); }
 
 @media screen and (max-width: 950px) {
   main .grid-galeria {
@@ -498,7 +623,7 @@ footer {
 @media screen and (max-width: 400px) {
   main .hero a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 15px;
@@ -520,7 +645,7 @@ footer {
 @media screen and (max-width: 370px) {
   main .hero a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 15px;
@@ -543,32 +668,39 @@ footer {
 
 /*!----------PSEUDO CLASES-------------*/
 .boton:hover {
-  background-color: #ee0000;
-  color: #FFFFFF; }
+  background-color: red;
+  color: white;
+  width: 25%; }
 
-header nav ul li a:hover {
-  color: red; }
+.vehiculos .card-flex div:hover {
+  transform: scale(1.2); }
+
+.productos .tarjeta-productos div:hover {
+  transform: scale(1.2); }
+
+footer div a img:hover {
+  transform: scale(1.3); }
 
 /*!----------PSEUDO ELEMENTOS-----------*/
-h1::selection {
+header nav .container-fluid .navbar-brand::selection {
   background-color: darkred;
-  color: #FFFFFF; }
+  color: white; }
 
 h2::selection {
   background-color: darkred;
-  color: #FFFFFF; }
+  color: white; }
 
 h3::selection {
   background-color: darkred;
-  color: #FFFFFF; }
+  color: white; }
 
 p::selection {
   background-color: darkred;
-  color: #FFFFFF; }
+  color: white; }
 
 .boton::selection {
   background-color: darkred;
-  color: #FFFFFF; }
+  color: white; }
 
 header nav ul li a::selection {
   color: red; }

@@ -6,11 +6,19 @@ main{
         font-style: italic;
         font-weight: 600;
         padding: 10px;
+        &selection{
+            background-color: nth($paleta-colores, 4);
+            color: $color-terciario;
+        }
     }
 
     p{
         font-family: 'Poppins', sans-serif;
         padding: 10px;
+        &selection{
+            background-color: nth($paleta-colores, 4);
+            color: $color-terciario;
+        }
     }
     .hero{
         width: 100%;
@@ -35,15 +43,24 @@ main{
             span{
                 color:$color-secundario;
             }
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         p{
             margin-bottom: 10px;
             font-size: nth($font-size, 3);
             color:$color-terciario;
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         a{
+            width: 180px;
             text-decoration: none;
             color:$color-terciario;
             font-family: 'Poppins', sans-serif;
@@ -51,7 +68,20 @@ main{
             font-size: nth($font-size, 7);
             font-weight: 600;
             border: 1px black solid;
-            background-color: rgb(0, 0, 0); 
+            background-color: rgb(0, 0, 0);
+            transition-property: background-color;
+            transition-duration: 1.5s;
+            transition: 0.5s;
+            transition-timing-function: ease-in;
+            &hover{
+                background-color: $color-secundario;
+                color: $color-terciario;
+                width: 25%;
+            }
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            } 
         }
     }
 
@@ -62,12 +92,19 @@ main{
             font-family: 'Poppins', sans-serif;
             font-style: italic;
             font-weight: 600;
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         p{
             font-family: 'Poppins', sans-serif;
             margin-bottom: 15px;
-        
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         .card-flex{
@@ -82,6 +119,10 @@ main{
                 box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
                 -moz-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
+                transition: 1s;
+                &hover{
+                    transform: scale(1.2);
+                }
                 img{
                     width: 400px;
                     height: 250px;
@@ -93,6 +134,10 @@ main{
                     font-size: nth($font-size, 5);
                     margin-bottom: 25px;
                     color: nth($paleta-colores, 2); 
+                    &selection{
+                        background-color: nth($paleta-colores, 4);
+                        color: $color-terciario;
+                    }
                 }
 
                 .boton{
@@ -100,6 +145,12 @@ main{
                     color:$color-terciario;
                     border: 3px black solid;
                     background-color: black;
+                    transition-property: background-color;
+                    transition-duration: 1.5s;
+                    &selection{
+                        background-color: nth($paleta-colores, 4);
+                        color: $color-terciario;
+                    }
                 }
             }
         }
@@ -112,6 +163,10 @@ main{
         padding: 10px;
         font-size: nth($font-size, 8);
         color: nth($paleta-colores, 2);
+        &selection{
+            background-color: nth($paleta-colores, 4);
+            color: $color-terciario;
+        }
     }
 
     p{
@@ -119,7 +174,10 @@ main{
         padding: 10px;
         font-size: nth($font-size, 3);
         color: nth($paleta-colores, 2);
-        
+        &selection{
+            background-color: nth($paleta-colores, 4);
+            color: $color-terciario;
+        }
     }
 
     .grid-galeria{
@@ -150,6 +208,10 @@ main{
                 background-color: rgba(0, 0, 0, 0.562);
                 width: 100%;
                 text-align: center;
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
         }
         
@@ -175,6 +237,10 @@ main{
                 background-color: rgba(0, 0, 0, 0.562);
                 width: 100%;
                 text-align: center;
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
         }
 
@@ -201,6 +267,10 @@ main{
                 background-color: rgba(0, 0, 0, 0.562);
                 width: 100%;
                 text-align: center;
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
         }
 
@@ -227,6 +297,10 @@ main{
                 background-color: rgba(0, 0, 0, 0.562);
                 width: 100%;
                 text-align: center;
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
         }
 
@@ -251,6 +325,10 @@ main{
                 background-color: rgba(0, 0, 0, 0.562);
                 width: 100%;
                 text-align: center;
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
         }
 
@@ -264,11 +342,19 @@ main{
             font-style: italic;
             font-size: nth($font-size, 8);
             color: nth($paleta-colores, 2);
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         p{
             font-size: nth($font-size, 3);
             color: nth($paleta-colores, 2);
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         div{
@@ -292,11 +378,20 @@ main{
             font-style: italic;
             font-size: nth($font-size, 8);
             color: nth($paleta-colores, 2);
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
         p{
             font-size: nth($font-size, 3);
             color: nth($paleta-colores, 2);
+            font-weight: 600;
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
     }
@@ -318,6 +413,10 @@ main{
             font-style: italic;
             padding-bottom: 50px;  
             color: nth($paleta-colores, 2);
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
     }
 }
@@ -325,34 +424,48 @@ main{
 //NOSOTROS
 
 main{
-    .nosotros{
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        div{
-            width: 50%;
-            h2{
-                font-family: 'Poppins', sans-serif;
-                font-style: italic;
-                font-weight: 600;
-                font-size: nth($font-size, 8);
-                color: nth($paleta-colores, 2);
-            }
-            p{
-                font-family: 'Poppins', sans-serif;
-                font-weight: 600;
-                font-size: nth($font-size, 3);
-                color: nth($paleta-colores, 2);
-            }
-        }
 
-        img{
-            width: 600px;
-            height: 600px;
+    .bg-nosotros{
+        background: rgb(253,245,230);
+        background: linear-gradient(90deg, rgba(253,245,230,1) 23%, rgba(253,245,230,1) 42%, rgba(51,51,51,1) 100%, rgba(122,115,79,1) 100%); 
+        .nosotros{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 50%;
+                h2{
+                    font-family: 'Poppins', sans-serif;
+                    font-style: italic;
+                    font-weight: 600;
+                    font-size: nth($font-size, 8);
+                    color: nth($paleta-colores, 2);
+                    &selection{
+                        background-color: nth($paleta-colores, 4);
+                        color: $color-terciario;
+                    }
+                }
+                p{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    font-size: nth($font-size, 3);
+                    color: nth($paleta-colores, 2);
+                    &selection{
+                        background-color: nth($paleta-colores, 4);
+                        color: $color-terciario;
+                    }
+                }
+            }
+    
+            img{
+                width: 600px;
+                height: 600px;
+            }
         }
     }
+    
 
 
     .taller{
@@ -370,12 +483,20 @@ main{
                 font-weight: 600;
                 font-size: nth($font-size, 8);
                 color: nth($paleta-colores, 2);
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
             p{
                 font-family: 'Poppins', sans-serif;
                 font-weight: 600;
                 font-size: nth($font-size, 3);
                 color: nth($paleta-colores, 2);
+                &selection{
+                    background-color: nth($paleta-colores, 4);
+                    color: $color-terciario;
+                }
             }
         }
 
@@ -397,11 +518,19 @@ main{
             font-style: italic;
             font-size: nth($font-size, 8);
             color: nth($paleta-colores, 2);
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
         p{
             font-size: nth($font-size, 3);
             color: nth($paleta-colores, 2);
             font-weight: 600;
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
     
@@ -418,6 +547,10 @@ main{
                 box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
                 -moz-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
+                transition: 1s;
+                &hover{
+                    transform: scale(1.2);
+                }
                 img{
                     width: 400px;
                     height: 250px;
@@ -428,7 +561,21 @@ main{
                     font-weight: 600;
                     font-size: nth($font-size, 5);
                     color: nth($paleta-colores, 2);
-    }
+                    &selection{
+                        background-color: nth($paleta-colores, 4);
+                        color: $color-terciario;
+                    }
+                }
+                .boton{
+                    background-color: black;
+                    color: #FFFFFF;
+                    transition-property: background-color;
+                    transition-duration: 1.5s;
+                    &selection{
+                        background-color: nth($paleta-colores, 4);
+                        color: $color-terciario;
+                    }
+                }
                 }
 
             }
@@ -453,6 +600,10 @@ main{
             font-style: italic;
             font-size: nth($font-size, 8);
             color:$color-terciario;
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
         p{
             text-align: center;
@@ -460,6 +611,10 @@ main{
             font-size: nth($font-size, 5);
             color:$color-terciario;
             font-weight: 400;
+            &selection{
+                background-color: nth($paleta-colores, 4);
+                color: $color-terciario;
+            }
         }
 
     }

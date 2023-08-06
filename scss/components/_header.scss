@@ -33,7 +33,10 @@ header{
                             color:$color-terciario;
                             font-family: 'Poppins', sans-serif;
                             font-style: italic;
-                            text-align: right;  
+                            text-align: right;
+                            &selection{
+                                color: red;
+                            }  
                         }
                     }
                 }

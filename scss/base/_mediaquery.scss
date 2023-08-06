@@ -33,7 +33,7 @@
 
     main .servicios p{
 
-        font-size: 17px;
+        font-size: nth($font-size, 4);
     }
 }
 
@@ -46,7 +46,7 @@
     }
 
     main .hero h2{
-        font-size: 25px;
+        font-size: nth($font-size, 6);
     }
 
     main .nosotros img{
@@ -66,7 +66,7 @@
 
     main .servicios p{
 
-        font-size: 15px;
+        font-size: nth($font-size, 2);
     }
 }
 
@@ -78,12 +78,12 @@
     }
 
     main .hero h2{
-        font-size: 25px;
+        font-size: nth($font-size, 6);
     }
 
 
     header nav .container-fluid .navbar-brand{
-        font-size: 25px;
+        font-size: nth($font-size, 6);
     }
 
 }
@@ -94,7 +94,7 @@
     }
 
     main .hero h2{
-        font-size: 15px;
+        font-size: nth($font-size, 2);
     }
 }
 
@@ -134,7 +134,7 @@
     }
 
     main .hero h2{
-        font-size: 15px;
+        font-size: nth($font-size, 2);
     }
     
 }
@@ -151,7 +151,7 @@
     }
 
     main .hero h2{
-        font-size: 15px;
+        font-size: nth($font-size, 2);
     }
 
     main .nosotros img{
@@ -168,7 +168,7 @@
 @media screen and (max-width:422px){
 
     main .hero p{
-        font-size: 15px;
+        font-size: nth($font-size, 2);
     }
 }
 
@@ -176,18 +176,18 @@
 
     main .hero a{
         text-decoration: none;
-        color: #ffffff;
+        color: $color-terciario;
         font-family: 'Poppins', sans-serif;
         font-style: italic;
-        font-size: 15px;
+        font-size: nth($font-size, 2);
         font-weight: 300;
         border: 1px black solid;
-        background-color: rgb(0, 0, 0);
+        background-color: nth($paleta-colores, 2);
 
     }
 
     main .hero p{
-        font-size: 14px;
+        font-size: nth($font-size, 1);
         
     }
 
@@ -207,7 +207,7 @@
 
     main .servicios p{
 
-        font-size: 14px;
+        font-size: nth($font-size, 1);
     }
 }
 
@@ -215,18 +215,18 @@
 
     main .hero a{
         text-decoration: none;
-        color: #ffffff;
+        color: $color-terciario;
         font-family: 'Poppins', sans-serif;
         font-style: italic;
-        font-size: 15px;
+        font-size: nth($font-size, 2);
         font-weight: 300;
         border: 1px black solid;
-        background-color: rgb(0, 0, 0);
+        background-color: nth($paleta-colores, 2);
 
     }
 
     main .hero p{
-        font-size: 14px;
+        font-size: nth($font-size, 1);
         
     }
 
@@ -246,7 +246,7 @@
 
 @media screen and (max-width:360px){
     main .hero p{
-        font-size: 14px;
+        font-size: nth($font-size, 1);
         
     }
     }
@@ -256,43 +256,52 @@
 /*!----------PSEUDO CLASES-------------*/
 
 .boton:hover{
-    background-color: rgb(238, 0, 0);
-    color: #FFFFFF;
+    background-color: $color-secundario;
+    color: $color-terciario;
+    width: 25%;
 }
 
-header nav ul li a:hover{
-    color: red;
+.vehiculos .card-flex div:hover{
+    transform: scale(1.2);
 }
+
+.productos .tarjeta-productos div:hover{
+    transform: scale(1.2);
+}
+
+footer div a img:hover{
+    transform: scale(1.3);
+}
+
+
 
 /*!----------PSEUDO ELEMENTOS-----------*/
 
-
-h1::selection{
-    background-color: darkred;
-    color: #FFFFFF;
-}
-
+header nav .container-fluid .navbar-brand::selection{
+    background-color: nth($paleta-colores, 4);
+    color: $color-terciario;
+}    
 
 h2::selection{
-    background-color: darkred;
-    color: #FFFFFF;
+    background-color: nth($paleta-colores, 4);
+    color: $color-terciario;
 }
 
 h3::selection{
-    background-color: darkred;
-    color: #FFFFFF;
+    background-color: nth($paleta-colores, 4);
+    color: $color-terciario;
 }
 
 p::selection{
-    background-color: darkred;
-    color: #FFFFFF;
+    background-color: nth($paleta-colores, 4);
+    color: $color-terciario;
 }
 
 .boton::selection{
-    background-color: darkred;
-    color: #FFFFFF;
+    background-color: nth($paleta-colores, 4);
+    color: $color-terciario;
 }
 
 header nav ul li a::selection{
-    color: red;
+    color: $color-secundario;
 }
