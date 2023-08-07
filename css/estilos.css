@@ -70,21 +70,22 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    main .hero h2 {
+    main .hero h1 {
       font-family: 'Poppins', sans-serif;
       font-style: italic;
       font-size: 50px;
       font-weight: 600;
       color: white; }
-      main .hero h2 span {
+      main .hero h1 span {
         color: red; }
-      main .hero h2selection {
+      main .hero h1selection {
         background-color: darkred;
         color: white; }
     main .hero p {
       margin-bottom: 10px;
       font-size: 16px;
-      color: white; }
+      color: white;
+      font-weight: 600; }
       main .hero pselection {
         background-color: darkred;
         color: white; }
@@ -121,7 +122,8 @@ main {
         color: white; }
     main .vehiculos p {
       font-family: 'Poppins', sans-serif;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      font-weight: 600; }
       main .vehiculos pselection {
         background-color: darkred;
         color: white; }
@@ -178,7 +180,8 @@ main {
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     font-size: 16px;
-    color: black; }
+    color: black;
+    font-weight: 600; }
     main pselection {
       background-color: darkred;
       color: white; }
@@ -308,13 +311,15 @@ main {
     main .videos h2 {
       font-style: italic;
       font-size: 32px;
-      color: black; }
+      color: black;
+      font-weight: 600; }
       main .videos h2selection {
         background-color: darkred;
         color: white; }
     main .videos p {
       font-size: 16px;
-      color: black; }
+      color: black;
+      font-weight: 600; }
       main .videos pselection {
         background-color: darkred;
         color: white; }
@@ -328,11 +333,12 @@ main .contactenos {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 50px; }
-  main .contactenos h2 {
+  main .contactenos h1 {
     font-style: italic;
     font-size: 32px;
-    color: black; }
-    main .contactenos h2selection {
+    color: black;
+    font-weight: 600; }
+    main .contactenos h1selection {
       background-color: darkred;
       color: white; }
   main .contactenos p {
@@ -372,13 +378,13 @@ main .bg-nosotros {
     align-items: center; }
     main .bg-nosotros .nosotros div {
       width: 50%; }
-      main .bg-nosotros .nosotros div h2 {
+      main .bg-nosotros .nosotros div h1 {
         font-family: 'Poppins', sans-serif;
         font-style: italic;
         font-weight: 600;
         font-size: 32px;
         color: black; }
-        main .bg-nosotros .nosotros div h2selection {
+        main .bg-nosotros .nosotros div h1selection {
           background-color: darkred;
           color: white; }
       main .bg-nosotros .nosotros div p {
@@ -425,11 +431,12 @@ main .taller {
 main .productos {
   text-align: center;
   font-family: 'Poppins', sans-serif; }
-  main .productos h2 {
+  main .productos h1 {
     font-style: italic;
     font-size: 32px;
-    color: black; }
-    main .productos h2selection {
+    color: black;
+    font-weight: 600; }
+    main .productos h1selection {
       background-color: darkred;
       color: white; }
   main .productos p {
@@ -487,19 +494,19 @@ main .servicios {
   background-attachment: fixed;
   text-align: center;
   font-family: 'Poppins', sans-serif; }
-  main .servicios h2 {
+  main .servicios h1 {
     font-style: italic;
     font-size: 32px;
-    color: white; }
-    main .servicios h2selection {
+    color: white;
+    font-weight: 600; }
+    main .servicios h1selection {
       background-color: darkred;
       color: white; }
   main .servicios p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    color: white;
-    font-weight: 400; }
+    color: white; }
     main .servicios pselection {
       background-color: darkred;
       color: white; }
@@ -553,7 +560,7 @@ footer {
   header {
     flex-direction: column;
     position: static; }
-  main .hero h2 {
+  main .hero h1 {
     font-size: 25px; }
   main .nosotros img {
     width: 400px;
@@ -569,7 +576,7 @@ footer {
 @media screen and (max-width: 485px) {
   main .hero {
     margin-bottom: 100px; }
-  main .hero h2 {
+  main .hero h1 {
     font-size: 25px; }
   header nav .container-fluid .navbar-brand {
     font-size: 25px; } }
@@ -577,7 +584,7 @@ footer {
 @media screen and (max-width: 460px) {
   main .hero {
     margin-bottom: 150px; }
-  main .hero h2 {
+  main .hero h1 {
     font-size: 15px; } }
 
 @media screen and (max-width: 450px) {
@@ -599,7 +606,7 @@ footer {
     padding: 15px; }
   main .hero {
     margin-bottom: 160px; }
-  main .hero h2 {
+  main .hero h1 {
     font-size: 15px; } }
 
 @media screen and (max-width: 425px) {
@@ -607,7 +614,7 @@ footer {
     flex-direction: column; }
   main .hero {
     margin-bottom: 100px; }
-  main .hero h2 {
+  main .hero h1 {
     font-size: 15px; }
   main .nosotros img {
     width: 300px;
@@ -683,6 +690,10 @@ footer div a img:hover {
 
 /*!----------PSEUDO ELEMENTOS-----------*/
 header nav .container-fluid .navbar-brand::selection {
+  background-color: darkred;
+  color: white; }
+
+h1::selection {
   background-color: darkred;
   color: white; }
 

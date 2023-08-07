@@ -34,7 +34,7 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        h2{
+        h1{
             font-family: 'Poppins', sans-serif;
             font-style: italic;
             font-size: nth($font-size, 10);
@@ -53,6 +53,7 @@ main{
             margin-bottom: 10px;
             font-size: nth($font-size, 3);
             color:$color-terciario;
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -101,6 +102,7 @@ main{
         p{
             font-family: 'Poppins', sans-serif;
             margin-bottom: 15px;
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -174,6 +176,7 @@ main{
         padding: 10px;
         font-size: nth($font-size, 3);
         color: nth($paleta-colores, 2);
+        font-weight: 600;
         &selection{
             background-color: nth($paleta-colores, 4);
             color: $color-terciario;
@@ -342,6 +345,7 @@ main{
             font-style: italic;
             font-size: nth($font-size, 8);
             color: nth($paleta-colores, 2);
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -351,6 +355,7 @@ main{
         p{
             font-size: nth($font-size, 3);
             color: nth($paleta-colores, 2);
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -374,10 +379,11 @@ main{
         text-align: center;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 50px;
-        h2{
+        h1{
             font-style: italic;
             font-size: nth($font-size, 8);
             color: nth($paleta-colores, 2);
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -436,7 +442,7 @@ main{
             align-items: center;
             div{
                 width: 50%;
-                h2{
+                h1{
                     font-family: 'Poppins', sans-serif;
                     font-style: italic;
                     font-weight: 600;
@@ -514,10 +520,11 @@ main{
     .productos{
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        h2{
+        h1{
             font-style: italic;
             font-size: nth($font-size, 8);
             color: nth($paleta-colores, 2);
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -596,10 +603,11 @@ main{
         background-attachment: fixed;
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        h2{
+        h1{
             font-style: italic;
             font-size: nth($font-size, 8);
             color:$color-terciario;
+            font-weight: 600;
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
@@ -610,7 +618,7 @@ main{
             font-family: 'Poppins', sans-serif;
             font-size: nth($font-size, 5);
             color:$color-terciario;
-            font-weight: 400;
+            
             &selection{
                 background-color: nth($paleta-colores, 4);
                 color: $color-terciario;
