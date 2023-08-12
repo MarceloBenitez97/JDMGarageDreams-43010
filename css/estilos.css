@@ -680,10 +680,10 @@ footer {
   width: 25%; }
 
 .vehiculos .card-flex div:hover {
-  transform: scale(1.2); }
+  transform: scale(1.1); }
 
 .productos .tarjeta-productos div:hover {
-  transform: scale(1.2); }
+  transform: scale(1.1); }
 
 footer div a img:hover {
   transform: scale(1.3); }
