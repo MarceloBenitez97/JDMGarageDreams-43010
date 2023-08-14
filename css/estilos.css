@@ -579,7 +579,20 @@ footer {
   main .hero h1 {
     font-size: 25px; }
   header nav .container-fluid .navbar-brand {
-    font-size: 25px; } }
+    font-size: 25px; }
+  main .vehiculos .card-flex div {
+    width: 350px;
+    height: 200px;
+    border: 1px black solid;
+    text-align: center;
+    margin: 60px;
+    box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 46px 5px rgba(0, 0, 0, 0.75);
+    transition: 1s; }
+  main .vehiculos .card-flex div img {
+    width: 350px;
+    height: 200px; } }
 
 @media screen and (max-width: 460px) {
   main .hero {
@@ -625,7 +638,20 @@ footer {
 
 @media screen and (max-width: 422px) {
   main .hero p {
-    font-size: 15px; } }
+    font-size: 15px; }
+  main .vehiculos .card-flex div {
+    width: 340px;
+    height: 200px; }
+  main .vehiculos .card-flex div img {
+    width: 340px;
+    height: 200px; }
+  main .productos .tarjeta-productos div {
+    width: 330px;
+    height: 280px;
+    margin-bottom: 100px; }
+  main .productos .tarjeta-productos div img {
+    width: 335px;
+    height: 280px; } }
 
 @media screen and (max-width: 400px) {
   main .hero a {
@@ -639,15 +665,36 @@ footer {
     background-color: black; }
   main .hero p {
     font-size: 14px; }
+  main .vehiculos .card-flex div {
+    width: 320px;
+    height: 180px; }
+  main .vehiculos .card-flex div img {
+    width: 320px;
+    height: 180px; }
   main .productos .tarjeta-productos div {
-    width: 330px;
-    height: 280px;
+    width: 310px;
+    height: 260px;
     margin-bottom: 100px; }
   main .productos .tarjeta-productos div img {
-    width: 335px;
-    height: 280px; }
+    width: 315px;
+    height: 260px; }
   main .servicios p {
     font-size: 14px; } }
+
+@media screen and (max-width: 380px) {
+  main .vehiculos .card-flex div {
+    width: 300px;
+    height: 160px; }
+  main .vehiculos .card-flex div img {
+    width: 300px;
+    height: 160px; }
+  main .productos .tarjeta-productos div {
+    width: 295px;
+    height: 250px;
+    margin-bottom: 100px; }
+  main .productos .tarjeta-productos div img {
+    width: 300px;
+    height: 250px; } }
 
 @media screen and (max-width: 370px) {
   main .hero a {
@@ -660,18 +707,24 @@ footer {
     border: 1px black solid;
     background-color: black; }
   main .hero p {
-    font-size: 14px; }
-  main .productos .tarjeta-productos div {
-    width: 310px;
-    height: 260px;
-    margin-bottom: 100px; }
-  main .productos .tarjeta-productos div img {
-    width: 315px;
-    height: 260px; } }
+    font-size: 14px; } }
 
 @media screen and (max-width: 360px) {
   main .hero p {
-    font-size: 14px; } }
+    font-size: 14px; }
+  main .vehiculos .card-flex div {
+    width: 280px;
+    height: 140px; }
+  main .vehiculos .card-flex div img {
+    width: 280px;
+    height: 140px; }
+  main .productos .tarjeta-productos div {
+    width: 285px;
+    height: 240px;
+    margin-bottom: 100px; }
+  main .productos .tarjeta-productos div img {
+    width: 290px;
+    height: 240px; } }
 
 /*!----------PSEUDO CLASES-------------*/
 .boton:hover {

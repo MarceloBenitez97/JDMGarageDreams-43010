@@ -567,6 +567,22 @@
             font-size: 25px;
         }
 
+        .vehiculos .card-flex div{
+            width: 350px;
+            height: 200px;
+            border: 1px rgb(0, 0, 0) solid;
+            text-align: center;
+            margin: 60px;
+            box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 46px 5px rgba(0,0,0,0.75);
+            transition: 1s;
+        }
+
+        .vehiculos .card-flex div img{
+            width: 350px;
+            height: 200px;
+        }
     }
 
     @media screen and (max-width:460px){
@@ -650,6 +666,29 @@
         .hero p{
             font-size: 15px;
         }
+
+        .vehiculos .card-flex div{
+            width: 340px;
+            height: 200px;
+            
+        }
+
+        .vehiculos .card-flex div img{
+            width: 340px;
+            height: 200px;
+        }
+
+        .productos .tarjeta-productos div{
+
+            width: 330px;
+            height: 280px;
+            margin-bottom: 100px;
+        }
+
+        .productos .tarjeta-productos div img{
+            width: 335px;
+            height: 280px;
+        }
     }
 
     @media screen and (max-width:400px){
@@ -671,21 +710,58 @@
             
         }
 
+        .vehiculos .card-flex div{
+            width: 320px;
+            height: 180px;
+            
+        }
+
+        .vehiculos .card-flex div img{
+            width: 320px;
+            height: 180px;
+        }
+
         .productos .tarjeta-productos div{
 
-            width: 330px;
-            height: 280px;
+            width: 310px;
+            height: 260px;
             margin-bottom: 100px;
         }
 
         .productos .tarjeta-productos div img{
-            width: 335px;
-            height: 280px;
+            width: 315px;
+            height: 260px;
         }
 
         .servicios p{
 
             font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width:380px){
+
+        .vehiculos .card-flex div{
+            width: 300px;
+            height: 160px;
+            
+        }
+
+        .vehiculos .card-flex div img{
+            width: 300px;
+            height: 160px;
+        }
+
+        .productos .tarjeta-productos div{
+
+            width: 295px;
+            height: 250px;
+            margin-bottom: 100px;
+        }
+
+        .productos .tarjeta-productos div img{
+            width: 300px;
+            height: 250px;
         }
     }
 
@@ -708,23 +784,35 @@
             
         }
 
-        .productos .tarjeta-productos div{
-
-            width: 310px;
-            height: 260px;
-            margin-bottom: 100px;
-        }
-
-        .productos .tarjeta-productos div img{
-            width: 315px;
-            height: 260px;
-        }
     }
 
     @media screen and (max-width:360px){
         .hero p{
             font-size: 14px;
             
+        }
+
+        .vehiculos .card-flex div{
+            width: 280px;
+            height: 140px;
+            
+        }
+
+        .vehiculos .card-flex div img{
+            width: 280px;
+            height: 140px;
+        }
+
+        .productos .tarjeta-productos div{
+
+            width: 285px;
+            height: 240px;
+            margin-bottom: 100px;
+        }
+
+        .productos .tarjeta-productos div img{
+            width: 290px;
+            height: 240px;
         }
         }
     
