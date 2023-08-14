@@ -280,6 +280,14 @@
         font-weight: 600;
     }
 
+    .genero{
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 32px;
+        color: black;
+    }
+
     .consulta{
         font-family: 'Poppins', sans-serif;
         font-style: italic;

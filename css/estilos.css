@@ -349,7 +349,14 @@ main .contactenos {
       background-color: darkred;
       color: white; }
 
-main .consulta {
+main .genero h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  color: black; }
+
+main .consulta h3 {
   font-family: 'Poppins', sans-serif;
   font-style: italic;
   font-weight: 600;

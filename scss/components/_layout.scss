@@ -402,13 +402,25 @@ main{
 
     }
 
+    .genero{
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            font-weight: 600;
+            font-size: nth($font-size, 8);
+            color: nth($paleta-colores, 2); 
+        }
+    }
+
 
     .consulta{
-        font-family: 'Poppins', sans-serif;
-        font-style: italic;
-        font-weight: 600;
-        font-size: nth($font-size, 8);
-        color: nth($paleta-colores, 2);
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: italic;
+            font-weight: 600;
+            font-size: nth($font-size, 8);
+            color: nth($paleta-colores, 2); 
+        }
     }
 
     .despedida{
