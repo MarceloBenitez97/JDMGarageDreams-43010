@@ -95,7 +95,7 @@ main {
       color: white;
       font-family: 'Poppins', sans-serif;
       font-style: italic;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 600;
       border: 1px black solid;
       background-color: black;
@@ -742,8 +742,16 @@ footer {
 .vehiculos .card-flex div:hover {
   transform: scale(1.1); }
 
+.vehiculos .card-flex .boton:hover {
+  background-color: red;
+  color: white; }
+
 .productos .tarjeta-productos div:hover {
   transform: scale(1.1); }
+
+.productos .tarjeta-productos .boton:hover {
+  background-color: red;
+  color: white; }
 
 footer div a img:hover {
   transform: scale(1.3); }

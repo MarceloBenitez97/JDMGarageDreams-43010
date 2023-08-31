@@ -837,8 +837,18 @@
         transform: scale(1.1);
     }
 
+    .vehiculos .card-flex .boton:hover{
+        background-color: rgb(238, 0, 0);
+        color: #FFFFFF;
+    }
+
     .productos .tarjeta-productos div:hover{
         transform: scale(1.1);
+    }
+
+    .productos .tarjeta-productos .boton:hover{
+        background-color: rgb(238, 0, 0);
+        color: #FFFFFF;
     }
 
     footer div a img:hover{

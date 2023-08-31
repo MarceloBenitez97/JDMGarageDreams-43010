@@ -353,8 +353,18 @@
     transform: scale(1.1);
 }
 
+.vehiculos .card-flex .boton:hover{
+    background-color: $color-secundario;
+    color: $color-terciario;
+}
+
 .productos .tarjeta-productos div:hover{
     transform: scale(1.1);
+}
+
+.productos .tarjeta-productos .boton:hover{
+    background-color: $color-secundario;
+    color: $color-terciario;
 }
 
 footer div a img:hover{
